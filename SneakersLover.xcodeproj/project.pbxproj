@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF71A8C626038AA80054BC32 /* BestSellerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A8C526038AA80054BC32 /* BestSellerController.swift */; };
+		BF86377325F65EC100F8FAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86377225F65EC100F8FAE2 /* AppDelegate.swift */; };
+		BF86377525F65EC100F8FAE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86377425F65EC100F8FAE2 /* SceneDelegate.swift */; };
+		BF86377A25F65EC100F8FAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86377825F65EC100F8FAE2 /* Main.storyboard */; };
+		BF86377C25F65EC400F8FAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86377B25F65EC400F8FAE2 /* Assets.xcassets */; };
+		BF86377F25F65EC400F8FAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86377D25F65EC400F8FAE2 /* LaunchScreen.storyboard */; };
+		BF86378C25F90B5000F8FAE2 /* SneakersCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86378B25F90B5000F8FAE2 /* SneakersCollectionController.swift */; };
+		BF86378F25F90B6900F8FAE2 /* Sneakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86378E25F90B6900F8FAE2 /* Sneakers.swift */; };
+		BF86379225F90D2600F8FAE2 /* SneakersCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86379125F90D2600F8FAE2 /* SneakersCategory.swift */; };
+		BF86379525F90DCA00F8FAE2 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86379425F90DCA00F8FAE2 /* Datas.swift */; };
+		BF86379825FB75DE00F8FAE2 /* ExtentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86379725FB75DE00F8FAE2 /* ExtentionController.swift */; };
+		BF86379B25FB915F00F8FAE2 /* SneakersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86379A25FB915F00F8FAE2 /* SneakersCell.swift */; };
+		BF86379E25FE5E2F00F8FAE2 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86379D25FE5E2F00F8FAE2 /* HeaderReusableView.swift */; };
+		BF8637A125FE8CD500F8FAE2 /* DetailSneakersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8637A025FE8CD500F8FAE2 /* DetailSneakersController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF71A8C526038AA80054BC32 /* BestSellerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerController.swift; sourceTree = "<group>"; };
+		BF86376F25F65EC100F8FAE2 /* SneakersLover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakersLover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF86377225F65EC100F8FAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF86377425F65EC100F8FAE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF86377925F65EC100F8FAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF86377B25F65EC400F8FAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF86377E25F65EC400F8FAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF86378025F65EC400F8FAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF86378B25F90B5000F8FAE2 /* SneakersCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersCollectionController.swift; sourceTree = "<group>"; };
+		BF86378E25F90B6900F8FAE2 /* Sneakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneakers.swift; sourceTree = "<group>"; };
+		BF86379125F90D2600F8FAE2 /* SneakersCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersCategory.swift; sourceTree = "<group>"; };
+		BF86379425F90DCA00F8FAE2 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		BF86379725FB75DE00F8FAE2 /* ExtentionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionController.swift; sourceTree = "<group>"; };
+		BF86379A25FB915F00F8FAE2 /* SneakersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersCell.swift; sourceTree = "<group>"; };
+		BF86379D25FE5E2F00F8FAE2 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		BF8637A025FE8CD500F8FAE2 /* DetailSneakersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSneakersController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF86376C25F65EC100F8FAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF86376625F65EC100F8FAE2 = {
+			isa = PBXGroup;
+			children = (
+				BF86377125F65EC100F8FAE2 /* SneakersLover */,
+				BF86377025F65EC100F8FAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF86377025F65EC100F8FAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF86376F25F65EC100F8FAE2 /* SneakersLover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF86377125F65EC100F8FAE2 /* SneakersLover */ = {
+			isa = PBXGroup;
+			children = (
+				BF86378725F90A6500F8FAE2 /* Model */,
+				BF86378825F90A6A00F8FAE2 /* View */,
+				BF86378925F90A7100F8FAE2 /* Controller */,
+				BF86377225F65EC100F8FAE2 /* AppDelegate.swift */,
+				BF86377425F65EC100F8FAE2 /* SceneDelegate.swift */,
+				BF86377825F65EC100F8FAE2 /* Main.storyboard */,
+				BF86377B25F65EC400F8FAE2 /* Assets.xcassets */,
+				BF86377D25F65EC400F8FAE2 /* LaunchScreen.storyboard */,
+				BF86378025F65EC400F8FAE2 /* Info.plist */,
+			);
+			path = SneakersLover;
+			sourceTree = "<group>";
+		};
+		BF86378725F90A6500F8FAE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF86378E25F90B6900F8FAE2 /* Sneakers.swift */,
+				BF86379125F90D2600F8FAE2 /* SneakersCategory.swift */,
+				BF86379425F90DCA00F8FAE2 /* Datas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF86378825F90A6A00F8FAE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF86379A25FB915F00F8FAE2 /* SneakersCell.swift */,
+				BF86379D25FE5E2F00F8FAE2 /* HeaderReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF86378925F90A7100F8FAE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF86378B25F90B5000F8FAE2 /* SneakersCollectionController.swift */,
+				BF86379725FB75DE00F8FAE2 /* ExtentionController.swift */,
+				BF8637A025FE8CD500F8FAE2 /* DetailSneakersController.swift */,
+				BF71A8C526038AA80054BC32 /* BestSellerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF86376E25F65EC100F8FAE2 /* SneakersLover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF86378325F65EC400F8FAE2 /* Build configuration list for PBXNativeTarget "SneakersLover" */;
+			buildPhases = (
+				BF86376B25F65EC100F8FAE2 /* Sources */,
+				BF86376C25F65EC100F8FAE2 /* Frameworks */,
+				BF86376D25F65EC100F8FAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SneakersLover;
+			productName = SneakersLover;
+			productReference = BF86376F25F65EC100F8FAE2 /* SneakersLover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF86376725F65EC100F8FAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF86376E25F65EC100F8FAE2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BF86376A25F65EC100F8FAE2 /* Build configuration list for PBXProject "SneakersLover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF86376625F65EC100F8FAE2;
+			productRefGroup = BF86377025F65EC100F8FAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF86376E25F65EC100F8FAE2 /* SneakersLover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF86376D25F65EC100F8FAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86377F25F65EC400F8FAE2 /* LaunchScreen.storyboard in Resources */,
+				BF86377C25F65EC400F8FAE2 /* Assets.xcassets in Resources */,
+				BF86377A25F65EC100F8FAE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF86376B25F65EC100F8FAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86377325F65EC100F8FAE2 /* AppDelegate.swift in Sources */,
+				BF86379B25FB915F00F8FAE2 /* SneakersCell.swift in Sources */,
+				BF86379525F90DCA00F8FAE2 /* Datas.swift in Sources */,
+				BF86379225F90D2600F8FAE2 /* SneakersCategory.swift in Sources */,
+				BF86379825FB75DE00F8FAE2 /* ExtentionController.swift in Sources */,
+				BF86379E25FE5E2F00F8FAE2 /* HeaderReusableView.swift in Sources */,
+				BF86378F25F90B6900F8FAE2 /* Sneakers.swift in Sources */,
+				BF86378C25F90B5000F8FAE2 /* SneakersCollectionController.swift in Sources */,
+				BF8637A125FE8CD500F8FAE2 /* DetailSneakersController.swift in Sources */,
+				BF71A8C626038AA80054BC32 /* BestSellerController.swift in Sources */,
+				BF86377525F65EC100F8FAE2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF86377825F65EC100F8FAE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86377925F65EC100F8FAE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF86377D25F65EC400F8FAE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86377E25F65EC400F8FAE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF86378125F65EC400F8FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF86378225F65EC400F8FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF86378425F65EC400F8FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVWX9847Z2;
+				INFOPLIST_FILE = SneakersLover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = App.Fviret.SneakersLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF86378525F65EC400F8FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVWX9847Z2;
+				INFOPLIST_FILE = SneakersLover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = App.Fviret.SneakersLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF86376A25F65EC100F8FAE2 /* Build configuration list for PBXProject "SneakersLover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86378125F65EC400F8FAE2 /* Debug */,
+				BF86378225F65EC400F8FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF86378325F65EC400F8FAE2 /* Build configuration list for PBXNativeTarget "SneakersLover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86378425F65EC400F8FAE2 /* Debug */,
+				BF86378525F65EC400F8FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF86376725F65EC100F8FAE2 /* Project object */;
+}
